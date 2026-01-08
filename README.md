@@ -2,6 +2,6 @@
 
 Email: 2023000634@link.tyut.edu.cn
 
-#Education:Taiyuan University of Technology
+Education:Taiyuan University of Technology
 
-#Internship:Binjiang Institute
+Internship:Binjiang Institute
