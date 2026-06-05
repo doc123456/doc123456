@@ -12,29 +12,13 @@ I enjoy building complete engineering systems: from mechanical structure and wir
 - Interested in agricultural robotics, robotic arms, embedded control, computer vision, medical image analysis, and local AI applications
 - CET-4: 552, CET-6: 559
 
-## Featured Project
+## Publication
 
-### Intelligent Picking Robot
+- W. Xing, M. Fang, G. Wang, C. Lin, M. Han. *Silencing the Guardrails: Inference-Time Jailbreaking via Dynamic Contextual Representation Ablation*. ACL 2026 Findings.
 
-I served as the team leader for an intelligent picking robot project in the Agricultural Robot track of the 2024 China Robot Competition and RoboCup China Open. The project won the National Second Prize.
+This work studies inference-time intervention in jailbreak attacks against large language models. My contributions included technical documentation refinement, method-description compression and clarification, figure redesign, additional illustration design, and collaborative Overleaf / LaTeX typesetting.
 
-The robot system included:
-
-- A mobile chassis driven by four 42 stepper motors
-- IM948 gyroscope-based motion assistance
-- A digital-servo robotic arm
-- End-effector distance perception modules
-- K210 Mini edge vision module
-- Color sensor-based grasp verification
-- UART / I2C communication between modules
-
-My main work included full-system hardware assembly, power supply and wiring design, robotic arm control code development, action-group debugging, sensor integration, UART / I2C protocol coordination, and system stability testing.
-
-For visual recognition, our team collected and annotated image data, trained a YOLOv2 model, and deployed it on the K210 Mini for edge-side target recognition. The vision module provided target information for the autonomous picking workflow.
-
-Related repository:
-
-- [harvest-robot-arm](https://github.com/doc123456/harvest-robot-arm): robotic arm control code, drivers, documentation, and historical versions for the picking robot arm module
+ArXiv: [https://arxiv.org/abs/2604.07835](https://arxiv.org/abs/2604.07835)
 
 ## Research and Internship Experience
 
@@ -63,13 +47,29 @@ My work includes:
 - Model performance validation with AUC above 0.91
 - Drafting technical disclosures related to medical imaging AI
 
-## Publication
+## Featured Project
 
-- W. Xing, M. Fang, G. Wang, C. Lin, M. Han. *Silencing the Guardrails: Inference-Time Jailbreaking via Dynamic Contextual Representation Ablation*. ACL 2026 Findings.
+### Intelligent Picking Robot
 
-This work studies inference-time intervention in jailbreak attacks against large language models. My contributions included technical documentation refinement, method-description compression and clarification, figure redesign, additional illustration design, and collaborative Overleaf / LaTeX typesetting.
+I served as the team leader for an intelligent picking robot project in the Agricultural Robot track of the 2024 China Robot Competition and RoboCup China Open. The project won the National Second Prize.
 
-ArXiv: [https://arxiv.org/abs/2604.07835](https://arxiv.org/abs/2604.07835)
+The robot system included:
+
+- A mobile chassis driven by four 42 stepper motors
+- IM948 gyroscope-based motion assistance
+- A digital-servo robotic arm
+- End-effector distance perception modules
+- K210 Mini edge vision module
+- Color sensor-based grasp verification
+- UART / I2C communication between modules
+
+My main work included full-system hardware assembly, power supply and wiring design, robotic arm control code development, action-group debugging, sensor integration, UART / I2C protocol coordination, and system stability testing.
+
+For visual recognition, our team collected and annotated image data, trained a YOLOv2 model, and deployed it on the K210 Mini for edge-side target recognition. The vision module provided target information for the autonomous picking workflow.
+
+Related repository:
+
+- [harvest-robot-arm](https://github.com/doc123456/harvest-robot-arm): robotic arm control code, drivers, documentation, and historical versions for the picking robot arm module
 
 ## Patents and Research Translation
 
